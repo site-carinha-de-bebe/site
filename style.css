@@ -1,0 +1,75 @@
+/* Estilo geral e cor de fundo */
+body {
+    background: linear-gradient(to bottom, #ffffff, #add8e6); /* Degradê branco para azul claro de cima para baixo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Estilo da imagem centralizada */
+.main-image {
+    display: block;
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaço abaixo */
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo da caixa de descrição */
+.description-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.description-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Centralização dos botões */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+}
+
+/* Estilo dos botões redondos e com sombra */
+.round-button {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 50px; /* Borda bem arredondada para dar formato de pílula */
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+}
+
+    .round-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    }
+
+/* Cores específicas para os botões */
+.whatsapp-button {
+    background-color: #25D366; /* Verde WhatsApp */
+}
+
+.instagram-button {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc236a, #bc1888); /* Degradê Instagram */
+}
